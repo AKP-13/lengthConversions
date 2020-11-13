@@ -1,10 +1,10 @@
 {
-  "name": "lengthConversions",
+  "name": "length-conversions",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx mocha \"lib/**/*.test.js\" --recursive --require @babel/register"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,16 @@
   "bugs": {
     "url": "https://github.com/AKP-13/lengthConversions/issues"
   },
-  "homepage": "https://github.com/AKP-13/lengthConversions#readme"
+  "homepage": "https://github.com/AKP-13/lengthConversions#readme",
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "@babel/register": "^7.12.1",
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1"
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "lodash": "^4.17.20"
+  }
 }
