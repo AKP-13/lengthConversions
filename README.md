@@ -2,15 +2,25 @@
 
 # Measurement Unit Converter
 
-A CLI application that converts measurments!
+A CLI application that converts measurements!
 
-Users can convert between
+## Installation
 
--   centimetres and metres
-    -   `convert --length 100 cm in m`
-    -   `>> 100cm is 1m`
+-   npm i -g @akp-13/conversions
 
-## Installation and Usage
+## Usage
+
+`convert --measurement X unit1 in unit2`
+`>> Xunit1 is Yunit2`
+
+## Supported Measurements and Units
+
+More coming soon!
+
+| Measurement | Units |
+| :---------: | :---: |
+|  --length   |  cm   |
+|             |   m   |
 
 ### Aknoweldgements
 
