@@ -1,6 +1,6 @@
 {
   "name": "@akp-13/conversions",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A CLI application that allows users to convert between different measurement units",
   "main": "index.js",
   "bin": {
@@ -13,7 +13,11 @@
     "type": "git",
     "url": "git+https://github.com/AKP-13/lengthConversions.git"
   },
-  "keywords": ["convert", "measure", "conversion"],
+  "keywords": [
+    "convert",
+    "measure",
+    "conversion"
+  ],
   "author": "Alex Peirson",
   "license": "ISC",
   "bugs": {
