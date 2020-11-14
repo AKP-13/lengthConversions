@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "bin": {
+    "convert": "./bin/index.js"
+  },
   "scripts": {
     "test": "npx mocha \"lib/**/*.test.js\" --recursive --require @babel/register"
   },
