@@ -6,12 +6,12 @@ A CLI application that converts measurements!
 
 ## Installation
 
--   npm i -g @akp-13/conversions
+-   `npm i -g @akp-13/conversions`
 
 ## Usage
 
-`convert --measurement X unit1 in unit2`
-`>> Xunit1 is Yunit2`
+-   `convert --measurement X unit1 in unit2`
+-   `>> Xunit1 is Yunit2`
 
 ## Supported Measurements and Units
 
