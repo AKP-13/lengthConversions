@@ -4,6 +4,8 @@
 
 A CLI application that converts measurements!
 
+![CLI Interface](https://res.cloudinary.com/de8a23w1z/image/upload/v1605370842/conversions/Screenshot_2020-11-14_at_16.19.57_bl42gs.png "CLI Interface")
+
 ## Installation
 
 -   `npm i -g @akp-13/conversions`
