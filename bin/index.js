@@ -11,21 +11,19 @@ let fromValue = null;
 let fromUnit = null;
 let toUnit = null;
 
-// check if user wants length
-if (arguments[0] == "--length") {
-    // assign respective arguments
+const measurments = ["--length"];
+
+// check for valid '--measurement'
+if (!measurments.includes(arguments[0])) {
+    return convert.invalidMeasurement();
+} else {
     fromValue = arguments[1];
     fromUnit = arguments[2];
     toUnit = arguments[4];
 }
 
-// if valid input format, convert
-if (fromValue && fromUnit && toUnit) {
+if (arguments[0] === "--length") {
     console.log(
-        colors.brightCyan(convert.convert(fromValue, fromUnit, toUnit))
+        colors.green(convert.convertLength(fromValue, fromUnit, toUnit))
     );
-} else {
-    console.log(colors.brightRed(convert.randomUnit()));
 }
-
-// console.log(process.argv);
