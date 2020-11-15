@@ -19,10 +19,10 @@ A CLI application that converts measurements!
 
 More coming soon!
 
-| --measurement | unit |
-| :-----------: | :--: |
-|   --length    |  cm  |
-|               |  m   |
+| --measurement | unit | Definition |
+| :-----------: | :--: | :--------: |
+|   --length    |  cm  | Centimetre |
+|               |  m   |   Metre    |
 
 ### Aknoweldgements
 
