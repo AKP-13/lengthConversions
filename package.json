@@ -1,6 +1,6 @@
 {
   "name": "@akp-13/conversions",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A CLI application that allows users to convert between different measurement units",
   "main": "index.js",
   "bin": {
